@@ -1,0 +1,46 @@
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+ul {
+  padding: 0 8px;
+}
+.header {
+  padding: 8px;
+}
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 16px;
+  gap: 4px;
+  border: 1px solid #ccc;
+}
+footer {
+  padding: 8px;
+}
+form {
+  display: flex;
+  width: 100%;
+  gap: 4px;
+}
+input {
+  flex-grow: 1;
+  padding: 8px;
+}
+.organizer-btn {
+  padding: 8px 16px;
+  background-color: #000088;
+  color: aliceblue;
+  border: none;
+  cursor: pointer;
+}
+.remove-btn {
+  padding: 4px 8px;
+  background-color: #880000;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}

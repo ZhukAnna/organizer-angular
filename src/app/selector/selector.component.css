@@ -1,0 +1,17 @@
+.selector{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.selector-btn {
+  padding: 10px 16px;
+  border: none;
+  font-weight: bolder;
+  background-color: #8888aa;
+  color: white;
+  cursor: pointer;
+}
+.selector-date {
+  padding: 10px 16px;
+  font-size: 18px;
+}

@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calendar {
+  border: solid 1px #000088;
+  margin-bottom: 20px;
+}
+.organizer {
+  border: solid 1px black;
+}

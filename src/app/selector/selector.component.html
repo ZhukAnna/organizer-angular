@@ -1,0 +1,5 @@
+<div class="selector">
+  <button class="selector-btn" (click)="go(-1)"><</button>
+  <span class="selector-date">{{dateService.date | async | moment}}</span>
+  <button class="selector-btn" (click)="go(1)">></button>
+</div>
